@@ -62,3 +62,27 @@ h3 {
 	bottom: 14em;
 	left: 12em;
 }
+
+@media only screen and (max-width: 485px) {
+
+	.Player1 {
+		position: relative;
+		left: 5em;
+	}
+
+	.Player1 img {
+		height: 9em;
+	}
+
+	.Player2 img {
+		height: 9em;
+		position: relative;
+		bottom: 14.5em;
+	}
+
+	.Player2 {
+		position: relative;
+		right: 5em;
+		top: 1.3em;
+	}
+}
